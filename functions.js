@@ -11,8 +11,8 @@
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
-
-
+var c = 1;
+var g = 2;
 /**
  *  #2
  *  Function - add
@@ -20,8 +20,11 @@
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
+function a (chadd,cj){ 
+return chadd+cj;
+}
 
-
+var sum = a(2,4);
 /**
  *  #3
  *  Function - subtract
@@ -29,8 +32,12 @@
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
-
-
+function b (cjk,cjkm){
+return cjk-cjkm;
+}
+b();
+var difference = b(1,2);
+console.log(difference);
 /**
  *  #4
  *  Function - multiply
@@ -38,8 +45,12 @@
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
-
-
+function c (kl,lk){
+return kl*lk;
+}
+c();
+var product = c(6,8);
+console.log(product);
 /**
  *  #5
  *  Function - checkDifference
@@ -49,7 +60,8 @@
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
-
+function checkDifference (){
+return "my football team lost" +difference +"times this week"
 
 /**
  *  #6
@@ -173,6 +185,6 @@
  *  Inside of this function it will check if
  *  the value of `canDrinkBeer`, if the value is true
  *  the message will be `"Bacon Pancakes, makin' Bacon Pancakes..."`
- *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
+ *  otherwise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
